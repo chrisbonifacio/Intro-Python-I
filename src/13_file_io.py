@@ -24,9 +24,10 @@ print(f.closed)
 # YOUR CODE HERE
 bar = open('bar.txt', 'w+')
 
-bar.write("Someone said left they left together\n"
-          "I ran out the door to get her\n"
-          "Oh my love, can't you see yourself by my side?")
+bar.write("Someone said they left together.\n"
+          "I ran out the door to get her.\n"
+          "She was was holding hands with Trevor.\n"
+          "Not the greatest feeling ever.")
 
 bar = open('bar.txt', 'r')
 
